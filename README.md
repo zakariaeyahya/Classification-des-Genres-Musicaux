@@ -1,7 +1,7 @@
 # Prédiction des Genres de Musique Marocaine
 #  Introduction
-Ce projet vise à extraire et à classifier des caractéristiques audio à partir de fichiers audio. Deux scripts principaux sont utilisés : preprocessing_ml.py pour l'extraction de caractéristiques et la création d'un fichier JSON, et classification_ml.py pour la construction, l'entraînement et l'évaluation d'un modèle de classification.
-# Fichier de Données
+Ce projet vise à extraire et à classifier les musiques. Deux scripts principaux sont utilisés : preprocessing_ml.py pour l'extraction de caractéristiques et la création d'un fichier JSON, et cnn_code_genre_classifier.py pour la construction, l'entraînement et l'évaluation d'un modèle de classification.
+# Fichier de Données (data)
 Le fichier de données comprend 8 types de musiques marocaines, avec 100 fichiers audio de 30 secondes pour chaque type :
 "Amazigh (Ahidous)"
 "Chaâbi"
@@ -19,7 +19,7 @@ Ce script est responsable de l'extraction de caractéristiques audio à partir d
 extract_all_features(filename): Extrait les caractéristiques audio d'un fichier spécifié.
 save_mfcc(dataset_path, json_path, num_segments): Divise les fichiers audio en segments, extrait les caractéristiques de chaque segment et les sauvegarde dans un fichier JSON.
 check_data_integrity(json_file): Vérifie l'intégrité des données extraites.
-# Script classification_ml.py
+# Script cnn_code_genre_classifier.py
 Ce script implémente la construction, l'entraînement et l'évaluation d'un modèle de classification à l'aide des caractéristiques extraites.
 
 ## Fonctions Principales
