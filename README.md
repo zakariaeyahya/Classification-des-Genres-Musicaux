@@ -12,7 +12,7 @@ Le fichier de données comprend 8 types de musiques marocaines, avec 100 fichier
 "Raï"
 "Reggada"
 "Sufi" 
-#   . Script preprocessing_ml.py
+#  Script preprocessing_ml.py
 Ce script est responsable de l'extraction de caractéristiques audio à partir de fichiers audio et de leur stockage dans un fichier JSON.
 
 ## Fonctions Principales
