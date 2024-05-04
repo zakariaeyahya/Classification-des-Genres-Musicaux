@@ -1,4 +1,5 @@
 # Prédiction des Genres de Musique Marocaine
+
 #  Introduction
 Ce projet vise à extraire et à classifier les musiques. Deux scripts principaux sont utilisés : preprocessing_ml.py pour l'extraction de caractéristiques et la création d'un fichier JSON, et cnn_code_genre_classifier.py pour la construction, l'entraînement et l'évaluation d'un modèle de classification.
 # Fichier de Données (data)
