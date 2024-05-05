@@ -56,7 +56,7 @@ Yahya Zakariae : Développeur et mainteneur du projet.
 #Contact
 Pour toute question ou commentaire concernant ce projet, n'hésitez pas à contacter :
 Yahya Zakariae : zakariae.yh@gmail.com ou www.linkedin.com/in/zakariae-yahya
- KAYOUH Salaheddine :salah.kayouh@example.com. ou https://www.linkedin.com/in/salaheddine-kayouh-899b34235/
+ KAYOUH Salaheddine :salah.k2y07@gmail.com ou https://www.linkedin.com/in/salaheddine-kayouh-899b34235/
 
 # Licence
 Ce projet est sous licence MIT.
