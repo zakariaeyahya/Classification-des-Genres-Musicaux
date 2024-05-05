@@ -1,5 +1,5 @@
 # Prédiction des Genres de Musique Marocaine
-
+https://github.com/zakariaeyahya/Classification-des-Genres-Musicaux/issues/1#issue-2279628449
 #  Introduction
 Ce projet vise à classifier le genre de la musique en utilisant des modèles d'apprentissage profond. Il comprend la création et l'entraînement de modèles de Réseaux de Neurones Convolutifs (CNN) et de Réseaux de Neurones Récurrents avec Mémoire à Long Terme (RNN-LSTM) pour prédire le genre de la musique en fonction des caractéristiques audio extraites des fichiers audio. Le projet comprend également des scripts de prétraitement pour extraire les caractéristiques pertinentes des fichiers audio et une application Streamlit pour une prédiction interactive du genre musical.
 
