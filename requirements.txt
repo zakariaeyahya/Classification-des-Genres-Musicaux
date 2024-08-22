@@ -1,0 +1,9 @@
+streamlit_option_menu
+tensorflow
+pydub
+numpy
+sklearn
+matplotlib
+matplotlib
+seaborn
+mutagen
