@@ -2,7 +2,7 @@ streamlit_option_menu
 tensorflow
 pydub
 numpy
-sklearn
+scikit-learn
 matplotlib
 matplotlib
 seaborn
