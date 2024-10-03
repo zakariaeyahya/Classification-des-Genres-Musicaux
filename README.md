@@ -20,6 +20,7 @@
 <div align="center">
       <a href="#"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>
       <img src="https://img.shields.io/github/stars/zakariaeyahya/Classification-des-Genres-Musicaux?color=blue&style=social"/>
+      <a href="https://youtu.be/iYvwxq49_D0"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 </div>
 
 ## 📝 Table of Contents
