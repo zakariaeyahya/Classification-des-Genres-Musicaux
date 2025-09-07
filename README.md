@@ -1,15 +1,17 @@
+
+---
+
 <div align="center">
   <a href="#">
     <img src="https://github.com/zakariaeyahya/Classification-des-Genres-Musicaux/assets/155691167/da44433d-d07a-44e9-9ef0-9269dde4dbb0" alt="Banner" width="720">
   </a>
-
   <div id="user-content-toc">
     <ul>
-      <summary><h1 style="display: inline-block;">Prédiction des Genres de Musique Marocaine</h1></summary>
+      <summary><h1 style="display: inline-block;">Prediction of Moroccan Music Genres</h1></summary>
     </ul>
   </div>
-  
-  <p>Classifier le genre de la musique marocaine en utilisant des modèles d'apprentissage profond</p>
+
+  <p>Classifying Moroccan music genres using deep learning models</p>
     <a href="#" target="_blank">Live Preview</a>
     🛸
     <a href="#" target="_blank">Data on Kaggle</a>
@@ -24,105 +26,80 @@
 </div>
 
 ## 📝 Table of Contents
-
-1. [ Introduction ](#introduction)
-2. [ Fichier de Données ](#data)
-3. [ Fichiers Inclus ](#included_files)
-4. [ Utilisation ](#utilisation)
-5. [ Bibliothèques Utilisées ](#bibliotheques)
-6. [ Travaux Futurs ](#travaux_futurs)
-7. [ Conclusion ](#conclusion)
-8. [ Contributeurs ](#contributeurs)
-9. [ Contact ](#contact)
-10. [ Licence ](#licence)
+1. [Introduction](#introduction)
+2. [Dataset](#data)
+3. [Included Files](#included_files)
+4. [Usage](#utilisation)
+5. [Libraries Used](#bibliotheques)
+6. [Future Work](#travaux_futurs)
+7. [Conclusion](#conclusion)
+8. [Contributors](#contributeurs)
+9. [Contact](#contact)
+10. [License](#licence)
 <hr>
 
 <a name="introduction"></a>
 ## 🔬 Introduction
-
-<p>Ce projet vise à classifier le genre de la musique en utilisant des modèles d'apprentissage profond. Il comprend la création et l'entraînement de modèles de Réseaux de Neurones Convolutifs (CNN) et de Réseaux de Neurones Récurrents avec Mémoire à Long Terme (RNN-LSTM) pour prédire le genre de la musique en fonction des caractéristiques audio extraites des fichiers audio. Le projet comprend également des scripts de prétraitement pour extraire les caractéristiques pertinentes des fichiers audio et une application Streamlit pour une prédiction interactive du genre musical.</p>
+This project aims to classify music genres using deep learning models. It involves creating and training Convolutional Neural Network (CNN) and Long Short-Term Memory Recurrent Neural Network (RNN-LSTM) models to predict music genres based on audio features extracted from audio files. The project also includes preprocessing scripts to extract relevant audio features and a Streamlit application for interactive genre prediction.
 
 <a name="data"></a>
-## 🗃️ Fichier de Données
-
-<p>Le fichier de données comprend 8 types de musiques marocaines, avec 100 fichiers audio de 30 secondes pour chaque type :</p>
-<ul>
-    <li>Amazigh (Ahidous)</li>
-    <li>Chaâbi</li>
-    <li>Gnawa</li>
-    <li>Malhun</li>
-    <li>Musique Andalouse</li>
-    <li>Rap et Hip-Hop Marocain</li>
-    <li>Raï</li>
-    <li>Reggada</li>
-    <li>Sufi</li>
-</ul>
+## 🗃️ Dataset
+The dataset includes 8 types of Moroccan music, with 100 audio files of 30 seconds each for every type:
+- Amazigh (Ahidous)
+- Chaâbi
+- Gnawa
+- Malhun
+- Andalusian Music
+- Moroccan Rap and Hip-Hop
+- Raï
+- Reggada
+- Sufi
 
 <a name="included_files"></a>
-## 📂 Fichiers Inclus
-
-<ul>
-    <li><strong>cnn_model.ipynb</strong> : Notebook Jupyter pour la création et l'entraînement du modèle CNN en utilisant TensorFlow/Keras.</li>
-    <li><strong>RNN-LSTM.ipynb</strong> : Notebook Jupyter pour la création et l'entraînement du modèle RNN-LSTM en utilisant TensorFlow/Keras.</li>
-    <li><strong>preprocessing_ml.py</strong> : Script Python pour extraire les caractéristiques audio des fichiers audio.</li>
-    <li><strong>building_streamlit.py</strong> : Script Python pour créer une application Streamlit pour une prédiction interactive du genre musical.</li>
-</ul>
+## 📂 Included Files
+- **cnn_model.ipynb**: Jupyter Notebook for creating and training the CNN model using TensorFlow/Keras.
+- **RNN-LSTM.ipynb**: Jupyter Notebook for creating and training the RNN-LSTM model using TensorFlow/Keras.
+- **preprocessing_ml.py**: Python script to extract audio features from audio files.
+- **building_streamlit.py**: Python script to create a Streamlit application for interactive music genre prediction.
 
 <a name="utilisation"></a>
-## 🚀 Utilisation
-
-<p>Pour exécuter ce projet, suivez ces étapes :</p>
-<ol>
-    <li><strong>Prétraitement</strong> : Exécutez le script <code>preprocessing_ml.py</code> pour extraire les caractéristiques audio de votre ensemble de données.</li>
-    <li><strong>Entraînement du Modèle</strong> : Entraînez les modèles CNN et RNN-LSTM en utilisant les caractéristiques audio extraites. Cela peut être fait en exécutant les notebooks Jupyter respectifs (<code>cnn_model.ipynb</code> et <code>RNN-LSTM.ipynb</code>).</li>
-    <li><strong>Application Streamlit</strong> : Déployez l'application Streamlit en exécutant le script <code>building_streamlit.py</code>. Les utilisateurs peuvent ensuite télécharger des fichiers audio et obtenir des prédictions sur le genre musical.</li>
-</ol>
+## 🚀 Usage
+To run this project, follow these steps:
+1. **Preprocessing**: Run the `preprocessing_ml.py` script to extract audio features from your dataset.
+2. **Model Training**: Train the CNN and RNN-LSTM models using the extracted audio features. This can be done by running the respective Jupyter notebooks (`cnn_model.ipynb` and `RNN-LSTM.ipynb`).
+3. **Streamlit Application**: Deploy the Streamlit application by running the `building_streamlit.py` script. Users can then upload audio files and get predictions on the music genre.
 
 <a name="bibliotheques"></a>
-## 📚 Bibliothèques Utilisées
-
-<ul>
-    <li><strong>TensorFlow/Keras</strong> : Pour la création et l'entraînement des modèles d'apprentissage profond.</li>
-    <li><strong>Librosa</strong> : Pour extraire les caractéristiques audio des fichiers audio.</li>
-    <li><strong>Streamlit</strong> : Pour créer des applications web interactives.</li>
-    <li><strong>PyDub</strong> : Pour la manipulation et la conversion des fichiers audio.</li>
-</ul>
+## 📚 Libraries Used
+- **TensorFlow/Keras**: For creating and training deep learning models.
+- **Librosa**: For extracting audio features from audio files.
+- **Streamlit**: For creating interactive web applications.
+- **PyDub**: For audio file manipulation and conversion.
 
 <a name="travaux_futurs"></a>
-## 🔮 Travaux Futurs
-
-<ul>
-    <li>Optimiser les modèles pour une meilleure précision.</li>
-    <li>Étendre l'ensemble de données pour inclure davantage de genres musicaux diversifiés.</li>
-    <li>Incorporer d'autres architectures de deep learning pour la comparaison.</li>
-    <li>Améliorer l'interface utilisateur et les fonctionnalités de l'application Streamlit.</li>
-</ul>
+## 🔮 Future Work
+- Optimize models for better accuracy.
+- Expand the dataset to include more diverse music genres.
+- Incorporate other deep learning architectures for comparison.
+- Improve the user interface and features of the Streamlit application.
 
 <a name="conclusion"></a>
 ## 🏁 Conclusion
-
-<p>Ce projet offre une solution complète pour le prétraitement et la classification de données audio pour l'apprentissage machine. En utilisant les scripts fournis, vous pouvez extraire efficacement des caractéristiques audio, construire un modèle de classification et créer une interface utilisateur interactive pour la prédiction des genres musicaux.</p>
+This project provides a comprehensive solution for preprocessing and classifying audio data for machine learning. Using the provided scripts, you can efficiently extract audio features, build a classification model, and create an interactive user interface for music genre prediction.
 
 <a name="contributeurs"></a>
-## 👥 Contributeurs
-
-<ul>
-    <li><strong>Salaheddine KAYOUH</strong> : Développeur et mainteneur du projet.</li>
-    <li><strong>Yahya Zakariae</strong> : Développeur et mainteneur du projet.</li>
-</ul>
+## 👥 Contributors
+- **Salaheddine KAYOUH**: Developer and maintainer of the project.
+- **Yahya Zakariae**: Developer and maintainer of the project.
 
 <a name="contact"></a>
 ## 📬 Contact
-
-<p>Pour toute question ou commentaire concernant ce projet, n'hésitez pas à contacter :</p>
-<ul>
-    <li><strong>Yahya Zakariae</strong> : <a href="mailto:zakariae.yh@gmail.com">zakariae.yh@gmail.com</a> ou <a href="https://www.linkedin.com/in/zakariae-yahya">LinkedIn</a></li>
-    <li><strong>KAYOUH Salaheddine</strong> : <a href="mailto:salah.k2y07@gmail.com">salah.k2y07@gmail.com</a> ou <a href="https://www.linkedin.com/in/salaheddine-kayouh-899b34235/">LinkedIn</a></li>
-</ul>
+For any questions or comments regarding this project, feel free to contact:
+- **Yahya Zakariae**: [zakariae.yh@gmail.com](mailto:zakariae.yh@gmail.com) or [LinkedIn](https://www.linkedin.com/in/zakariae-yahya)
+- **KAYOUH Salaheddine**: [salah.k2y07@gmail.com](mailto:salah.k2y07@gmail.com) or [LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh-899b34235/)
 
 <a name="licence"></a>
-## 📄 Licence
+## 📄 License
+This project is licensed under the MIT License.
 
-<p>Ce projet est sous licence MIT.</p>
-
-<p>N'hésitez pas à explorer, expérimenter et contribuer au projet !</p>
+Feel free to explore, experiment, and contribute to the project
